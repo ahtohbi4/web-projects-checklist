@@ -1,18 +1,32 @@
 # web-projects-checklist
 
-## Validation
+## :mag: Validation
 
 - HTML — http://validator.w3.org/nu/.
 
-## Security
+## :cop: Security
 
-## Performance
+## :runner: Performance
 
-## A11y
+## :wheelchair: A11y
 
-## UX
+## :mortar_board: UX
 
 ### Tag `<a>`
+
+#### Attribute `download` with a value or without the one.
+
+Prompts the user to save the linked URL instead of navigating to it. For instance:
+
+```html
+<a href="document.pdf" download>
+    Save me as document.pdf
+</a>
+
+<a href="1h24v9lj.jpg" download="other-document">
+    Save me as other-document.jpg
+</a>
+```
 
 1. Use different protocols in attribute `href`:
 
