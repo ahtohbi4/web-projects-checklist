@@ -28,6 +28,8 @@ Prompts the user to save the linked URL instead of navigating to it. For instanc
 </a>
 ```
 
+See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#download
+
 #### Different protocols in attribute `href`:
 
 - `http:`/`https:` — Opens a hyperlink.
@@ -40,3 +42,23 @@ Prompts the user to save the linked URL instead of navigating to it. For instanc
 - `skype:` — Opens Skype if it is registered.
 - `slack:` — Opens Slack if it is registered.
 - ...
+
+For instance:
+
+```html
+Get in touch by
+
+<a href="tel:79999999999999">
+  Phone
+</a>
+
+<a href="skype:examplecom">
+  Skype
+</a>
+
+<a href="mailto:info@example.com?cc=sales@example.com,media@example.com&bcc=granny@gmail.com&subject=I%20want%20to%20subscribe&body=I%20want%20to%20subscribe">
+  Email
+</a>
+```
+
+See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#href
