@@ -6,9 +6,28 @@
 
 ## :cop: Security
 
+### Attribute `rel="noopener"` for links with `target="_blank"`
+
+```html
+<a href="evil.com" rel="noopener" target="_blank">
+  Click Me!
+</a>
+```
+
 ## :runner: Performance
 
 ## :wheelchair: A11y
+
+### The size of the target for pointer inputs is at least 44×44px
+
+See https://www.w3.org/WAI/WCAG21/Understanding/target-size.html
+
+### Attributes `aria-label`, `aria-describedby` and `aria-labelledby`
+
+See:
+- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute
+- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-describedby_attribute
+- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-labelledby_attribute
 
 ## :mortar_board: UX
 
@@ -62,3 +81,15 @@ Get in touch by
 ```
 
 See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#href
+
+#### CSS property `touch-action: manipulation`
+
+Prevents of 300ms delaying after a tap on touch devices.
+
+See https://developer.mozilla.org/ru/docs/Web/CSS/touch-action#manipulation
+
+#### CSS property `text-decoration-skip-ink: auto`
+
+Underlines and overlines are only drawn where they do not touch or closely approach a glyph.
+
+See https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-skip-ink
