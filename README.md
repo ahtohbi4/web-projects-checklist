@@ -2,9 +2,7 @@
 
 ## Validation
 
-  1.1. HTML.
-  
-  1.1. HTML.
+- HTML — http://validator.w3.org/nu/.
 
 ## Security
 
@@ -14,7 +12,7 @@
 
 ## UX
 
-### Tag `a`
+### Tag `<a>`
 
 1. Use different protocols in attribute `href`:
 
