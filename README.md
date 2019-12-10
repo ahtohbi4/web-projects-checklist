@@ -4,6 +4,8 @@
 
 - HTML — http://validator.w3.org/nu/.
 
+<br>
+
 ## 2. :cop: Security
 
 ### 2.1. Attribute `rel="noopener"` for links with `target="_blank"`
@@ -13,6 +15,8 @@
   Click Me!
 </a>
 ```
+
+<br>
 
 ## 3. :runner: Performance
 
@@ -43,6 +47,8 @@ See
 - https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display
 - https://github.com/soflyy/oxygen-bugs-and-features/issues/337
 
+<br>
+
 ## 4. :wheelchair: A11y
 
 ### 4.1. The size of the target for pointer inputs is at least 44×44px
@@ -55,6 +61,8 @@ See:
 - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute
 - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-describedby_attribute
 - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-labelledby_attribute
+
+<br>
 
 ## 5. :mortar_board: UX
 
