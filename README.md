@@ -1,8 +1,18 @@
 # web-projects-checklist
 
-## 1. :mag: Validation
+## 1. :mag: Quality of code
 
-- HTML — http://validator.w3.org/nu/.
+### 1.1. Passing validation of HTML
+
+Use validator http://validator.w3.org/nu/.
+
+### 1.2. Passing Lighthouse audit in Google Chrome.
+
+See https://developers.google.com/web/tools/lighthouse/
+
+### 1.3. Passing audit from Firefox Accessibility Inspector
+
+See https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector
 
 <br>
 
