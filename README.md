@@ -16,6 +16,33 @@
 
 ## :runner: Performance
 
+### Fonts
+
+#### Preload main style of custom font
+
+For instance regular style.
+
+```html
+<link rel="preload" href="rubik-regular-latin.woff2"
+      as="font" type="font/woff2"
+      crossorigin>
+```
+
+#### CSS property `font-display` with values `swap` or `fallback`
+
+```css
+@font-face {
+    font-family: 'DIN Condensed';
+    font-display: swap;
+    src: url('din.woff2') format('woff2'),
+         url('din.woff') format('woff');
+}
+```
+
+See
+- https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display
+- https://github.com/soflyy/oxygen-bugs-and-features/issues/337
+
 ## :wheelchair: A11y
 
 ### The size of the target for pointer inputs is at least 44×44px
