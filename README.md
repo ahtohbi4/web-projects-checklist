@@ -76,9 +76,25 @@ See:
 
 ## 5. :mortar_board: UX
 
-### 5.1. Tag `<a>`
+### 5.1. Turn off the auto-detection of phone numbers on mobile devices
 
-#### 5.1.1. Attribute `download` with a value or without the one.
+For instance, some prices or IDs can be confused with the phone number.
+
+```html
+<meta name="format-detection" content="telephone=no">
+```
+
+You should have total control of phone number detection by using the protocol `tel:` for the tag `<a>`.
+
+```html
+<a href="tel:79999999999999">
+  Call me!
+</a>
+```
+
+### 5.2. Tag `<a>`
+
+#### 5.2.1. Attribute `download` with a value or without the one.
 
 Prompts the user to save the linked URL instead of navigating to it. For instance:
 
@@ -94,7 +110,7 @@ Prompts the user to save the linked URL instead of navigating to it. For instanc
 
 See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#download
 
-#### 5.1.2. Different protocols in attribute `href`:
+#### 5.2.2. Different protocols in attribute `href`:
 
 - `http:`/`https:` — Opens a hyperlink.
 - `mailto:` — Opens default mail program, creates a new message with the `To` field already filled out. Additional `GET`-parameters for the link:
@@ -127,13 +143,13 @@ Get in touch by
 
 See https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#href
 
-#### 5.1.3. CSS property `touch-action: manipulation`
+### 5.3. CSS property `touch-action: manipulation`
 
 Prevents of 300ms delaying after a tap on touch devices.
 
 See https://developer.mozilla.org/ru/docs/Web/CSS/touch-action#manipulation
 
-#### 5.1.4. CSS property `text-decoration-skip-ink: auto`
+### 5.4. CSS property `text-decoration-skip-ink: auto`
 
 Underlines and overlines are only drawn where they do not touch or closely approach a glyph.
 
