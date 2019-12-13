@@ -8,7 +8,9 @@ Use validator http://validator.w3.org/nu/.
 
 ### 1.2. Passing Lighthouse audit in Google Chrome.
 
-See https://developers.google.com/web/tools/lighthouse/
+See:
+- https://developers.google.com/speed/pagespeed/insights/
+- https://developers.google.com/web/tools/lighthouse/
 
 ### 1.3. Passing audit from Firefox Accessibility Inspector
 
